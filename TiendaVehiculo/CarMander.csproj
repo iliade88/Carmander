@@ -59,7 +59,10 @@
   <ItemGroup>
     <Content Include="App_Themes\Tema1\StyleSheet1.css" />
     <Content Include="Default.aspx" />
+    <Content Include="imagenes\facebooklogo.png" />
+    <Content Include="imagenes\google.png" />
     <Content Include="imagenes\logo.png" />
+    <Content Include="imagenes\twitterlogo.png" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -96,6 +99,7 @@
     <Folder Include="Articulos\Vehiculos\Coches\" />
     <Folder Include="Articulos\Vehiculos\Furgonetas\" />
     <Folder Include="Articulos\Vehiculos\Motos\" />
+    <Folder Include="OtrasVistas\Contacta\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
