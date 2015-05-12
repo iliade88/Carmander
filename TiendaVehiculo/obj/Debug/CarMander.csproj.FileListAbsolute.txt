@@ -14,9 +14,3 @@ W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos
 W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
 W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
 W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
-C:\Users\Cris\Downloads\VehiculosTienda\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.dll.config
-C:\Users\Cris\Downloads\VehiculosTienda\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.dll
-C:\Users\Cris\Downloads\VehiculosTienda\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.pdb
-C:\Users\Cris\Downloads\VehiculosTienda\TiendaVehiculos\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
-C:\Users\Cris\Downloads\VehiculosTienda\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
-C:\Users\Cris\Downloads\VehiculosTienda\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb

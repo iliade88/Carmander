@@ -40,27 +40,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CAD\AccesorioCAD.cs" />
+    <Compile Include="CAD\ArticuloCAD.cs" />
     <Compile Include="CAD\CamionesCAD.cs" />
     <Compile Include="CAD\CaravanasCAD.cs" />
     <Compile Include="CAD\CarritoCAD.cs" />
-    <Compile Include="CAD\Cliente.cs" />
     <Compile Include="CAD\CochesCAD.cs" />
+    <Compile Include="CAD\ConexionCAD.cs" />
+    <Compile Include="CAD\DireccionPedidoCAD.cs" />
     <Compile Include="CAD\FurgonetasCAD.cs" />
-    <Compile Include="CAD\LineaPedidoCAD.cs" />
+    <Compile Include="CAD\LinpedCAD.cs" />
+    <Compile Include="CAD\LocalidadCAD.cs" />
     <Compile Include="CAD\MotosCAD.cs" />
     <Compile Include="CAD\PedidoCAD.cs" />
-    <Compile Include="CAD\ProvinciasCAD.cs" />
+    <Compile Include="CAD\ProvinciaCAD.cs" />
+    <Compile Include="CAD\UsuarioCAD.cs" />
     <Compile Include="EN\AccesorioEN.cs" />
     <Compile Include="EN\CamionesEN.cs" />
     <Compile Include="EN\CaravanasEN.cs" />
     <Compile Include="EN\CarritoEN.cs" />
+    <Compile Include="EN\UsuarioEN.cs" />
+    <Compile Include="EN\LocalidadEN.cs" />
     <Compile Include="EN\ClientesEN.cs" />
     <Compile Include="EN\CochesEN.cs" />
     <Compile Include="EN\FurgonetasEN.cs" />
     <Compile Include="EN\LineaPedidoEN.cs" />
     <Compile Include="EN\MotosEN.cs" />
     <Compile Include="EN\PedidoEN.cs" />
-    <Compile Include="EN\ProvinciasEN.cs" />
+    <Compile Include="EN\ProvinciaEN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
