@@ -16,7 +16,8 @@ namespace TiendaVehiculos.CAD
         private SqlConnection conexion;
 
         // Cadena de conexion a la BBDD
-        private string cadenaConexion = "data source=.\\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\\DBDTienda.mdf;User Instance=true";
+        //private string cadenaConexion = "Data Source=(LocalDB)\v11.0;AttachDBFilename=|DataDirectory|\\DBDTienda.mdf;Integrated Security=True";
+        private string cadenaConexion = "data source=.\\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\\Database1.mdf;User Instance=true";
 
 
         // Conexion a la base de datos

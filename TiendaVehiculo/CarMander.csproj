@@ -269,6 +269,12 @@
     <Folder Include="imagenes\vehiculos\camiones\" />
     <Folder Include="imagenes\vehiculos\caravanas\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TiendaVehiculos\TiendaVehiculos.csproj">
+      <Project>{17ef87df-2f71-4062-9a21-5be96cb8750f}</Project>
+      <Name>TiendaVehiculos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

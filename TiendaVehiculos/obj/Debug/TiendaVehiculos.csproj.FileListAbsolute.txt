@@ -3,3 +3,8 @@ C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculos\bin\Debug\TiendaVehiculos
 C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculos\bin\Debug\TiendaVehiculos.pdb
 C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculos\obj\Debug\TiendaVehiculos.dll
 C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculos\obj\Debug\TiendaVehiculos.pdb
+C:\Users\Cris\Documents\Carmander\TiendaVehiculos\bin\Debug\TiendaVehiculos.dll
+C:\Users\Cris\Documents\Carmander\TiendaVehiculos\bin\Debug\TiendaVehiculos.pdb
+C:\Users\Cris\Documents\Carmander\TiendaVehiculos\obj\Debug\TiendaVehiculos.csprojResolveAssemblyReference.cache
+C:\Users\Cris\Documents\Carmander\TiendaVehiculos\obj\Debug\TiendaVehiculos.dll
+C:\Users\Cris\Documents\Carmander\TiendaVehiculos\obj\Debug\TiendaVehiculos.pdb
