@@ -57,9 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\DBDTienda.mdf" />
-    <Content Include="App_Data\DBDTienda_log.ldf">
-      <DependentUpon>DBDTienda.mdf</DependentUpon>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="App_Themes\Tema1\StyleSheet1.css" />
     <Content Include="Articulos\Accesorios\accesorios.aspx" />
