@@ -104,6 +104,8 @@
     <Folder Include="Articulos\Vehiculos\Furgonetas\" />
     <Folder Include="Articulos\Vehiculos\Motos\" />
     <Folder Include="OtrasVistas\Contacta\" />
+    <Folder Include="usuario\admin\" />
+    <Folder Include="usuario\cliente\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
