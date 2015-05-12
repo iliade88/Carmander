@@ -48,12 +48,12 @@
          <asp:ContentPlaceHolder ID="folderbajo" runat="server">
         
              <div id="redessociales">
-                 <a href="http://www.facebook.com">
-                 <img src="/imagenes/facebooklogo.png" /></a> <a href="http://www.google.com">
-                 <img src="/imagenes/google.png" style="width: 163px; margin-top: 10px" /></a> <a href="http://www.twitter.com">
-                 <img src="/imagenes/twitterlogo.png" style="width: 171px; height: 177px" /></a>
+                 <a href="http://www.facebook.com"><img src="/imagenes/facebooklogo.png" style="height: 70px; width:70px; margin-top: 4px;margin-left:auto" /></a> 
+                 <a href="http://www.google.com"> <img src="/imagenes/google.png" style="width: 70px; height: 70px; margin-top: 4px;margin-left:auto" /></a> 
+                 <a href="http://www.twitter.com"> <img src="/imagenes/twitterlogo.png" style="width: 70px; height: 70px; margin-top: 4px;margin-left:auto" /></a>
              </div>
              <div id="contacta">
+                  <a href="OtrasVistas/Contacta/Contacta.aspx"><h1>Contacta</h1></a>
              </div>
 
 
