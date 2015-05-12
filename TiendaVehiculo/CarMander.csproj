@@ -69,6 +69,7 @@
     <Content Include="Articulos\Vehiculos\Furgonetas\furgonetas.aspx" />
     <Content Include="Articulos\Vehiculos\Motos\motos.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="imagenes\carrito.png" />
     <Content Include="imagenes\facebooklogo.png" />
     <Content Include="imagenes\google.png" />
     <Content Include="imagenes\logo.png" />
@@ -76,14 +77,10 @@
     <Content Include="OtrasVistas\Contacta\contacta.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="OtrasVistas\Contacta\Cantactamaster.master" />
-    <Content Include="Articulos\Vehiculos\Motos\Motosm.master" />
-    <Content Include="Articulos\Vehiculos\Furgonetas\Furgonetasm.master" />
-    <Content Include="Articulos\Vehiculos\Coches\cochesm.master" />
-    <Content Include="Articulos\Vehiculos\Caravanas\caravanas.master" />
-    <Content Include="Articulos\Vehiculos\Camiones\Camiones.master" />
     <Content Include="Articulos\Accesorios\accesoriosm.master" />
     <Content Include="usuario\cliente\clientedefault.aspx" />
     <Content Include="usuario\cliente\clientedefault.master" />
+    <Content Include="Articulos\Vehiculos\vehiculosM.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -117,26 +114,12 @@
     <Compile Include="Articulos\Vehiculos\Camiones\camiones.aspx.designer.cs">
       <DependentUpon>camiones.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Articulos\Vehiculos\Camiones\Camiones.master.cs">
-      <DependentUpon>Camiones.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Articulos\Vehiculos\Camiones\Camiones.master.designer.cs">
-      <DependentUpon>Camiones.master</DependentUpon>
-    </Compile>
     <Compile Include="Articulos\Vehiculos\Caravanas\caravanas.aspx.cs">
       <DependentUpon>caravanas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Articulos\Vehiculos\Caravanas\caravanas.aspx.designer.cs">
       <DependentUpon>caravanas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Articulos\Vehiculos\Caravanas\caravanas.master.cs">
-      <DependentUpon>caravanas.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Articulos\Vehiculos\Caravanas\caravanas.master.designer.cs">
-      <DependentUpon>caravanas.master</DependentUpon>
     </Compile>
     <Compile Include="Articulos\Vehiculos\Coches\coches.aspx.cs">
       <DependentUpon>coches.aspx</DependentUpon>
@@ -145,26 +128,12 @@
     <Compile Include="Articulos\Vehiculos\Coches\coches.aspx.designer.cs">
       <DependentUpon>coches.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Articulos\Vehiculos\Coches\cochesm.master.cs">
-      <DependentUpon>cochesm.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Articulos\Vehiculos\Coches\cochesm.master.designer.cs">
-      <DependentUpon>cochesm.master</DependentUpon>
-    </Compile>
     <Compile Include="Articulos\Vehiculos\Furgonetas\furgonetas.aspx.cs">
       <DependentUpon>furgonetas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Articulos\Vehiculos\Furgonetas\furgonetas.aspx.designer.cs">
       <DependentUpon>furgonetas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Articulos\Vehiculos\Furgonetas\Furgonetasm.master.cs">
-      <DependentUpon>Furgonetasm.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Articulos\Vehiculos\Furgonetas\Furgonetasm.master.designer.cs">
-      <DependentUpon>Furgonetasm.master</DependentUpon>
     </Compile>
     <Compile Include="Articulos\Vehiculos\Motos\motos.aspx.cs">
       <DependentUpon>motos.aspx</DependentUpon>
@@ -173,12 +142,12 @@
     <Compile Include="Articulos\Vehiculos\Motos\motos.aspx.designer.cs">
       <DependentUpon>motos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Articulos\Vehiculos\Motos\Motosm.master.cs">
-      <DependentUpon>Motosm.master</DependentUpon>
+    <Compile Include="Articulos\Vehiculos\vehiculosM.master.cs">
+      <DependentUpon>vehiculosM.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Articulos\Vehiculos\Motos\Motosm.master.designer.cs">
-      <DependentUpon>Motosm.master</DependentUpon>
+    <Compile Include="Articulos\Vehiculos\vehiculosM.master.designer.cs">
+      <DependentUpon>vehiculosM.master</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

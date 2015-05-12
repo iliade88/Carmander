@@ -9,3 +9,8 @@ C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehicul
 C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehiculos\TiendaVehiculos\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
 C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehiculos\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
 C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehiculos\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
+W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.dll
+W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.pdb
+W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
+W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
+W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
