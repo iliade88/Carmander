@@ -3,3 +3,9 @@ C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.pdb
 C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
 C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
 C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
+C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehiculos\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.dll.config
+C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehiculos\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.dll
+C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehiculos\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.pdb
+C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehiculos\TiendaVehiculos\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
+C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehiculos\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
+C:\Users\Cris\Downloads\HadaWeb\HadaWeb\PROYECTO actual\Entrega2\9_TiendaVehiculos\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
