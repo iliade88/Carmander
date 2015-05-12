@@ -4,7 +4,6 @@
      <asp:ContentPlaceHolder ID="foldermedio" runat="server">
              
 
-
             </asp:ContentPlaceHolder>
 </asp:Content>
 
