@@ -12,6 +12,18 @@
 <body>
     <form id="form1" runat="server">
     
+
+    <div id="topor">
+        <asp:ContentPlaceHolder ID="foldertop" runat="server">
+            <div id="identicar">
+                         <h3><a href="http://www.google.es">Identificarse</a></h3>
+                     </div>
+            <div id="carrito">
+                         <h3><a href="http://www.google.es">Carrrito 🏀</a></h3>
+                 </div>
+            </asp:ContentPlaceHolder>
+    </div>
+
     <div id="arriba">
 
          <asp:ContentPlaceHolder ID="folderarriba" runat="server">
@@ -19,22 +31,17 @@
                  <div id="icono">
                      <h1><a href="Default.aspx">
                          <img src="/imagenes/logo.png" style="width: 154px; height: 113px; margin-left: 1px; margin-top: 25px"/></a></h1>
-                     <div id="identicar">
-                         <h3>Identificarse</h3>
-                     </div>
-                     
                  </div>
-                 <div id="carrito">
-                 </div>
+                 
              </div>
              <div id="barra">
                  <div id="secciones">
                      <ul>
-                         <li><a href="">Coches </a></li>
-                         <li><a href="">Motos </a></li>
-                         <li><a href="">Caravanas </a></li>
-                         <li><a href="">Furgonetas </a></li>
-                         <li><a href="">Camiones </a></li>
+                         <li><a href="http://www.google.es">Coches </a></li>
+                         <li><a href="http://www.google.es">Motos </a></li>
+                         <li><a href="http://www.google.es">Caravanas </a></li>
+                         <li><a href="http://www.google.es">Furgonetas </a></li>
+                         <li><a href="http://www.google.es">Camiones </a></li>
                          <li><a href="Articulos/Accesorios/accesorios.aspx">Accesorios </a></li>
                      </ul>
                  </div>

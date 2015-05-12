@@ -58,16 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Themes\Tema1\StyleSheet1.css" />
-    <Content Include="Articulos\Accesorios\accesorios.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="imagenes\facebooklogo.png" />
     <Content Include="imagenes\google.png" />
     <Content Include="imagenes\logo.png" />
     <Content Include="imagenes\twitterlogo.png" />
-    <Content Include="OtrasVistas\Contacta\contactar.aspx" />
     <Content Include="Site1.Master" />
-    <Content Include="OtrasVistas\Contacta\contacta.master" />
-    <Content Include="Articulos\Accesorios\Accesorios.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -80,40 +76,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Articulos\Accesorios\accesorios.aspx.cs">
-      <DependentUpon>accesorios.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Articulos\Accesorios\accesorios.aspx.designer.cs">
-      <DependentUpon>accesorios.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Articulos\Accesorios\Accesorios.master.cs">
-      <DependentUpon>Accesorios.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Articulos\Accesorios\Accesorios.master.designer.cs">
-      <DependentUpon>Accesorios.master</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="OtrasVistas\Contacta\contacta.master.cs">
-      <DependentUpon>contacta.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="OtrasVistas\Contacta\contacta.master.designer.cs">
-      <DependentUpon>contacta.master</DependentUpon>
-    </Compile>
-    <Compile Include="OtrasVistas\Contacta\contactar.aspx.cs">
-      <DependentUpon>contactar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="OtrasVistas\Contacta\contactar.aspx.designer.cs">
-      <DependentUpon>contactar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
@@ -125,11 +93,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Articulos\Accesorios\" />
     <Folder Include="Articulos\Vehiculos\Camiones\" />
     <Folder Include="Articulos\Vehiculos\Caravanas\" />
     <Folder Include="Articulos\Vehiculos\Coches\" />
     <Folder Include="Articulos\Vehiculos\Furgonetas\" />
     <Folder Include="Articulos\Vehiculos\Motos\" />
+    <Folder Include="OtrasVistas\Contacta\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
