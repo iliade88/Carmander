@@ -1,21 +1,15 @@
-﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="contacta.master.cs" Inherits="TiendaVehiculo.OtrasVistas.Contacta.contacta" %>
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Accesorios.master.cs" Inherits="TiendaVehiculo.Articulos.Accesorios.Accesorios" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 
-
 <asp:Content ID="Content2" ContentPlaceHolderID="folderarriba" runat="server">
-
+  ContentPlaceHolder>
 </asp:Content>
-
-
 <asp:Content ID="Content3" ContentPlaceHolderID="foldermedio" runat="server">
      <asp:ContentPlaceHolder ID="foldermedio" runat="server">
 
-          </asp:ContentPlaceHolder>
-
+         </asp:ContentPlaceHolder>
 </asp:Content>
-
-
 <asp:Content ID="Content4" ContentPlaceHolderID="folderbajo" runat="server">
-
+     
 </asp:Content>

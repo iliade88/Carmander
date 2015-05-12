@@ -7,10 +7,10 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace TiendaVehiculo.OtrasVistas.Contacta {
+namespace TiendaVehiculo.Articulos.Accesorios {
     
     
-    public partial class contacta {
+    public partial class Accesorios {
         
         /// <summary>
         /// Control foldermedio.

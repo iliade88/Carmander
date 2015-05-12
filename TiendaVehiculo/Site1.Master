@@ -18,15 +18,25 @@
              <div id="top">
                  <div id="icono">
                      <h1><a href="Default.aspx">
-                         <img src="/imagenes/logo.png" style="width: 375px; height: 75px; margin-left: 18px; margin-top: 25px"/></a>Su tienda de Vehículos y accesorios</h1>
-                 </div>
-                 <div id="identicar">
+                         <img src="/imagenes/logo.png" style="width: 154px; height: 113px; margin-left: 1px; margin-top: 25px"/></a></h1>
+                     <div id="identicar">
+                         <h3>Identificarse</h3>
+                     </div>
+                     
                  </div>
                  <div id="carrito">
                  </div>
              </div>
              <div id="barra">
                  <div id="secciones">
+                     <ul>
+                         <li><a href="">Coches </a></li>
+                         <li><a href="">Motos </a></li>
+                         <li><a href="">Caravanas </a></li>
+                         <li><a href="">Furgonetas </a></li>
+                         <li><a href="">Camiones </a></li>
+                         <li><a href="Articulos/Accesorios/accesorios.aspx">Accesorios </a></li>
+                     </ul>
                  </div>
                  <div id="buscar">
                  </div>
@@ -48,12 +58,15 @@
          <asp:ContentPlaceHolder ID="folderbajo" runat="server">
         
              <div id="redessociales">
-                 <a href="http://www.facebook.com"><img src="/imagenes/facebooklogo.png" style="height: 70px; width:70px; margin-top: 4px;margin-left:auto" /></a> 
-                 <a href="http://www.google.com"> <img src="/imagenes/google.png" style="width: 70px; height: 70px; margin-top: 4px;margin-left:auto" /></a> 
-                 <a href="http://www.twitter.com"> <img src="/imagenes/twitterlogo.png" style="width: 70px; height: 70px; margin-top: 4px;margin-left:auto" /></a>
-             </div>
-             <div id="contacta">
-                  <a href="OtrasVistas/Contacta/Contacta.aspx"><h1>Contacta</h1></a>
+                 <a href="http://www.facebook.com">
+                 <img src="/imagenes/facebooklogo.png" style="height: 70px; width:70px; margin-top: 4px;margin-left:7px" /></a> <a href="http://www.google.com">
+                 <img src="/imagenes/google.png" style="width: 70px; height: 70px; margin-top: 4px;margin-left:auto" /></a> <a href="http://www.twitter.com">
+                 <img src="/imagenes/twitterlogo.png" style="width: 70px; height: 70px; margin-top: 4px;margin-left:auto" /></a>
+                 <div id="contacta">
+                     <a href="OtrasVistas/Contacta/contactar.aspx">
+                     <h1>Contacta con nosotros</h1>
+                     </a>
+                 </div>
              </div>
 
 

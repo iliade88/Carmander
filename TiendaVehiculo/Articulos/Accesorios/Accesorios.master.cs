@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace TiendaVehiculo.OtrasVistas.Contacta
+namespace TiendaVehiculo.Articulos.Accesorios
 {
-    public partial class contacta : System.Web.UI.MasterPage
+    public partial class Accesorios : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
