@@ -1,0 +1,16 @@
+﻿body {
+}
+
+#arriba
+{
+    height:150px;
+    background-color:#b6ff00;
+    color:green;
+    box-shadow: 0px 0px 10px #000;
+    margin:auto;
+}
+#icono
+{
+    margin-left: 90px;
+
+}

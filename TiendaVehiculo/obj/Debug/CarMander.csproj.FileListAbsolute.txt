@@ -1,0 +1,5 @@
+C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.dll
+C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.pdb
+C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
+C:\Users\Jorge\Desktop\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb

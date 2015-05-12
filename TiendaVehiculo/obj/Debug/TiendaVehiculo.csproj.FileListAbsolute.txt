@@ -1,0 +1,6 @@
+c:\users\jorge\documents\visual studio 2013\Projects\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.dll.config
+c:\users\jorge\documents\visual studio 2013\Projects\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.dll
+c:\users\jorge\documents\visual studio 2013\Projects\TiendaVehiculos\TiendaVehiculo\bin\TiendaVehiculo.pdb
+c:\users\jorge\documents\visual studio 2013\Projects\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.csprojResolveAssemblyReference.cache
+c:\users\jorge\documents\visual studio 2013\Projects\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
+c:\users\jorge\documents\visual studio 2013\Projects\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
