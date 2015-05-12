@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\DBDTienda.mdf" />
+    <Content Include="App_Data\DBDTienda_log.ldf">
+      <DependentUpon>DBDTienda.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Themes\Tema1\StyleSheet1.css" />
     <Content Include="Default.aspx" />
     <Content Include="imagenes\facebooklogo.png" />
