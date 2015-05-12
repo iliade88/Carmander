@@ -12,7 +12,7 @@ using System.Collections;
 
 namespace TiendaVehiculos.EN
 {
-    public class UsuarioEN
+    class UsuarioEN
     {
         private UsuarioCAD usuariocad;
 
