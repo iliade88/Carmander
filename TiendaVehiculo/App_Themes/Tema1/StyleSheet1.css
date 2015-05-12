@@ -1,13 +1,15 @@
 ﻿body {
+    width:auto;
 }
 
 #arriba
 {
-    height:150px;
+    height:auto;
     background-color:#b6ff00;
     color:green;
     box-shadow: 0px 0px 10px #000;
-    margin:auto;
+    margin-right:150px;
+    margin-left:150px;
 }
 #icono
 {
@@ -17,11 +19,21 @@
 
 #medio
 {
+   margin-left:150px;
+   background-color:red;
+   margin-right:150px;
+
+   height:20px;
+    
+    /*altura poner en auto puesta en 20 para verse*/
+    
+}
+
+#bajo
+{
     margin-left:150px;
-    background-color:red;
-    height:20px;
-    width:1000px;
-    
-    
-    
+    margin-right:150px;
+    background-color:#610B0B;
+    height:auto;
+   
 }
