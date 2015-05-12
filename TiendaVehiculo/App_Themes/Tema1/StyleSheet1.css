@@ -67,6 +67,7 @@
     margin-left:  2em;
 
 }
+
 #barra
 {
     text-align: center;
@@ -149,6 +150,7 @@
 
 #medio
 {
+    
    background-color: white;
    margin-left: 9.25em;
    margin-right: 9.25em;
@@ -158,16 +160,6 @@
     
     /*altura poner en auto puesta en 20 para verse*/
     
-}
-
-#bajo
-{
-    margin-top: 2em;
-    margin-left: 9.25em;
-    margin-right: 9.25em;
-    
-    height: auto;
-
 }
 
 #contacta
@@ -187,23 +179,40 @@ margin-right: 4px;
 
 #cuadricula
 {
+    margin-top:2%;
     margin-left: 2em;
     margin-right: 2em;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    background-color: red;
+    background-color: transparent;
+    
 }
 
 .imgoferta{
     text-align: center;
     overflow: hidden;
 }
+.oferta {
+margin-bottom:2%;
+border:solid;
+box-shadow:0px 0px 10px #000;
+border-radius:20px 20px 20px 20px;
+}
 
 #cuadricula img{
     width: 70%;
     height: 30%;
-    margin: auto;
+    
+    border-radius:10px 10px 10px 10px;
+}
+
+.descripoferta {
+    border-top:solid;
+    text-align:center;
+    margin-left:15%;
+    margin-right:15%;
+    
 }
 /*SLIDER*/
 
@@ -287,20 +296,6 @@ animation-iteratio-count: infinite;
 
 }
 
-#redessociales
-{
-    margin-top:15px;
-    margin-left:30%;
-}
-
-
-#redessociales img
-{
-        margin-left:30px;
-        width: 5%;
-        height: 5%;
-}
-
 #menucliente li > a
 {
     text-decoration: none;
@@ -317,4 +312,286 @@ animation-iteratio-count: infinite;
  
     display: block;
     
+}
+#barraarriba
+{
+    text-align: center;
+    width: auto;
+    background-color: #e9e9e9;
+    box-shadow: 0px 0px 10px #000;
+    border-radius:  20px 20px 0px 0px;
+
+}
+#barraarriba > ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#barraarriba li
+{
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
+#barraarriba li > a
+{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+    /*
+    
+    border: inset;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-width: 1px;
+    text-align: center;*/
+}
+#barraarriba li:hover
+{
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #5E5E5E;
+    
+    /*
+    
+    border: inset;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-width: 1px;
+    text-align: center;*/
+}
+#barraarriba li:hover > a
+{
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    background-color: #5E5E5E;
+    
+    /*
+    
+    border: inset;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-width: 1px;
+    text-align: center;*/
+}
+
+
+                                    /******************* BAJO ***************************/
+
+
+#bajo h3 {
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-size: x-large;
+     font-weight: normal;
+     line-height: normal;
+     color: #555555;
+     margin:12px;
+}
+
+#bajo {
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    display: block;
+    line-height: 21px;
+    font-size: 14px;
+    margin-top: 2em;
+    margin-bottom: 10em;
+    padding-top: 2em;
+    
+    padding-left: 8%;
+    border-top: 0.2em groove black;
+    zoom:1
+}
+
+.redes_sociales {
+    display:block;
+    list-style:none;
+    margin:0;
+}
+
+.redes_sociales > li {
+    display: inline-block;
+}
+
+.facebook {
+    display:block;
+    background-image: url(//dmypbau5frl9g.cloudfront.net/assets/generated_sprites/logos-be55b74f1bd5c28ae3d49760a16b1902.png);
+    background-position: -435px -175px;
+    height: 36px;
+    margin-right: 5px;
+    text-indent: -9999px;
+    width: 36px;
+}
+
+.twitter {
+    display: block;
+    height: 36px;
+    margin-right: 5px;
+    text-indent: -9999px;
+    width: 36px;
+    background-image: url(//dmypbau5frl9g.cloudfront.net/assets/generated_sprites/logos-be55b74f1bd5c28ae3d49760a16b1902.png);
+    background-position: -435px -120px;
+}
+
+.google {
+    display: block;
+    height: 36px;
+    margin-right: 5px;
+    text-indent: -9999px;
+    width: 36px;
+    background-image: url(//dmypbau5frl9g.cloudfront.net/assets/generated_sprites/logos-be55b74f1bd5c28ae3d49760a16b1902.png);
+    background-position: -491px -175px;
+}
+
+#bajo #bajo_izq {
+    display: block;
+    width: 280px;
+    margin: 0 36px 0 0;
+    float: left;
+}
+
+#bajo #bajo_medio {
+
+    display: block;
+    width: 300px;
+    float:left;
+}
+
+#bajo #bajo_der {
+    display: block;
+    width: 286px;
+    float: left;
+}
+
+#bajo_medio ul {
+    list-style: none;
+    font-size: 18px;
+    margin: 0px;
+}
+#bajo_medio ul li a {
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+#bajo_der ul {
+    list-style: none;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#bajo_der ul li a {
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+#bajo a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+/***************************
+    Página de información de vehículo
+    ***************************/
+#infovehiculo{
+}
+
+#modelovehiculo{
+    color: #2e2e2e;
+    padding-left: 2em;
+    padding-top: 1em;
+    margin-bottom: -1em;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+#imginfovehiculo{
+    margin-right: 2em;
+    float: left;
+    width: 70%;
+}
+
+#imginfovehiculo img{
+    max-width: 100%;
+    height: auto;
+    width: auto/9; /* Bug de ie8 */
+}
+
+.clearer{
+    clear: both;
+}
+
+#precioycarrito{
+    text-align: center;
+}
+
+#descrinfovehiculo{
+    text-align:justify;
+    padding: 2em;
+}
+
+#detalle{
+    width: auto;
+    padding-top: 2em;
+    
+}
+#detalle ul
+{
+    list-style-type: square;
+    font-size: 0.9em;
+}
+#detalle li
+{
+    padding: 5px;
+    
+}
+
+/****************************
+    BOTONES
+    *************************/
+
+.baddcarrito {
+  background: #34d95a;
+  background-image: -webkit-linear-gradient(top, #34d95a, #21990f);
+  background-image: -moz-linear-gradient(top, #34d95a, #21990f);
+  background-image: -ms-linear-gradient(top, #34d95a, #21990f);
+  background-image: -o-linear-gradient(top, #34d95a, #21990f);
+  background-image: linear-gradient(to bottom, #34d95a, #21990f);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.baddcarrito:hover {
+  background: #21990f;
+  background-image: -webkit-linear-gradient(top, #21990f, #34d95a);
+  background-image: -moz-linear-gradient(top, #21990f, #34d95a);
+  background-image: -ms-linear-gradient(top, #21990f, #34d95a);
+  background-image: -o-linear-gradient(top, #21990f, #34d95a);
+  background-image: linear-gradient(to bottom, #21990f, #34d95a);
+  text-decoration: none;
 }

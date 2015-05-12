@@ -31,13 +31,13 @@ namespace TiendaVehiculo {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control foldertop.
+        /// Control folderarriba.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder foldertop;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder folderarriba;
         
         /// <summary>
         /// Control TextBox1.
@@ -56,15 +56,6 @@ namespace TiendaVehiculo {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Control folderarriba.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder folderarriba;
         
         /// <summary>
         /// Control foldermedio.

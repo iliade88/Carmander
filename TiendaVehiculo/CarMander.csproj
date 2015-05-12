@@ -68,19 +68,54 @@
     <Content Include="Articulos\Vehiculos\Coches\coches.aspx" />
     <Content Include="Articulos\Vehiculos\Furgonetas\furgonetas.aspx" />
     <Content Include="Articulos\Vehiculos\Motos\motos.aspx" />
+    <Content Include="Articulos\Vehiculos\vehiculos.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="imagenes\carrito.png" />
     <Content Include="imagenes\facebooklogo.png" />
     <Content Include="imagenes\google.png" />
     <Content Include="imagenes\logo.png" />
     <Content Include="imagenes\twitterlogo.png" />
+    <Content Include="imagenes\vehiculos\coches\duster.jpg" />
+    <Content Include="imagenes\vehiculos\coches\fiat multipkla.jpg" />
+    <Content Include="imagenes\vehiculos\coches\fiat punto.jpg" />
+    <Content Include="imagenes\vehiculos\coches\ford fiesta.jpg" />
+    <Content Include="imagenes\vehiculos\coches\ladgy.jpg" />
+    <Content Include="imagenes\vehiculos\coches\laferrari.jpg" />
+    <Content Include="imagenes\vehiculos\coches\logan mcv.jpg" />
+    <Content Include="imagenes\vehiculos\coches\logan.jpg" />
+    <Content Include="imagenes\vehiculos\coches\sandero.jpg" />
+    <Content Include="imagenes\vehiculos\coches\seat ibiza.png" />
+    <Content Include="imagenes\vehiculos\coches\tesla model s.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\citroen-jumper.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\dacia-dokker-van.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\fiat-doblo-cargo.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\ford-tourneo-connect.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\ford-transit-courier.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\ford-transit-custom.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\ford-transit.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\iveco-daily.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\nissan-nv200.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\renault-kangoo.jpg" />
+    <Content Include="imagenes\vehiculos\furgonetas\volkswagen-crafter.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\CBR125.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\CRF110F.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\fjr1300a.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\forza-125.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\gsx1250fa-suzuki.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\gsxr750-suzuki.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\intruder-c800c-suzuki.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\ninja_h2r.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\wr125r.jpg" />
+    <Content Include="imagenes\vehiculos\Motocicletas\Yamaha-YZF-R6.jpg" />
     <Content Include="OtrasVistas\Contacta\contacta.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="OtrasVistas\Contacta\Cantactamaster.master" />
     <Content Include="Articulos\Accesorios\accesoriosm.master" />
-    <Content Include="usuario\cliente\clientedefault.aspx" />
+    <Content Include="usuario\admin\admin.aspx" />
+    <Content Include="usuario\cliente\carrito.aspx" />
     <Content Include="usuario\cliente\clientedefault.master" />
     <Content Include="Articulos\Vehiculos\vehiculosM.master" />
+    <Content Include="usuario\admin\admin.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -90,6 +125,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="usuario\cliente\login.aspx" />
+    <Content Include="usuario\cliente\Registro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +179,13 @@
     <Compile Include="Articulos\Vehiculos\Motos\motos.aspx.designer.cs">
       <DependentUpon>motos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Articulos\Vehiculos\vehiculos.aspx.cs">
+      <DependentUpon>vehiculos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articulos\Vehiculos\vehiculos.aspx.designer.cs">
+      <DependentUpon>vehiculos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Articulos\Vehiculos\vehiculosM.master.cs">
       <DependentUpon>vehiculosM.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -178,12 +222,26 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="usuario\cliente\clientedefault.aspx.cs">
-      <DependentUpon>clientedefault.aspx</DependentUpon>
+    <Compile Include="usuario\admin\admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="usuario\cliente\clientedefault.aspx.designer.cs">
-      <DependentUpon>clientedefault.aspx</DependentUpon>
+    <Compile Include="usuario\admin\admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\admin\admin.master.cs">
+      <DependentUpon>admin.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuario\admin\admin.master.designer.cs">
+      <DependentUpon>admin.master</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\cliente\carrito.aspx.cs">
+      <DependentUpon>carrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuario\cliente\carrito.aspx.designer.cs">
+      <DependentUpon>carrito.aspx</DependentUpon>
     </Compile>
     <Compile Include="usuario\cliente\clientedefault.master.cs">
       <DependentUpon>clientedefault.master</DependentUpon>
@@ -192,10 +250,24 @@
     <Compile Include="usuario\cliente\clientedefault.master.designer.cs">
       <DependentUpon>clientedefault.master</DependentUpon>
     </Compile>
+    <Compile Include="usuario\cliente\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuario\cliente\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\cliente\Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuario\cliente\Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="usuario\admin\" />
-    <Folder Include="usuario\registro\" />
+    <Folder Include="imagenes\vehiculos\camiones\" />
+    <Folder Include="imagenes\vehiculos\caravanas\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
