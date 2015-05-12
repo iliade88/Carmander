@@ -67,6 +67,7 @@
     margin-left:  2em;
 
 }
+
 #barra
 {
     text-align: center;
@@ -400,24 +401,22 @@ animation-iteratio-count: infinite;
      color: #555555;
      margin:12px;
 }
-#bajo {
-    margin-left: 9.25em;
-    margin-right: 9.25em;
-    height: auto;
 
+#bajo {
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    
     display: block;
     line-height: 21px;
     font-size: 14px;
-    padding: 28px 15px 8px 15px;
-    background-color: #f1f1f1;
+    margin-top: 2em;
+    margin-bottom: 10em;
+    padding-top: 2em;
+    
+    padding-left: 8%;
+    border-top: 0.2em groove black;
     zoom:1
-}
-
-#bajo > bajo_izq {
-    display: block;
-    width: 280px;
-    margin: 0 36px 0 0;
-    float: left;
 }
 
 .redes_sociales {
@@ -425,9 +424,10 @@ animation-iteratio-count: infinite;
     list-style:none;
     margin:0;
 }
-    .redes_sociales > li {
-        display: inline-block;
-    }
+
+.redes_sociales > li {
+    display: inline-block;
+}
 
 .facebook {
     display:block;
@@ -459,37 +459,50 @@ animation-iteratio-count: infinite;
     background-position: -491px -175px;
 }
 
+#bajo #bajo_izq {
+    display: block;
+    width: 280px;
+    margin: 0 36px 0 0;
+    float: left;
+}
 
+#bajo #bajo_medio {
 
-#bajo > bajo_medio {
     display: block;
     width: 300px;
-    float: right;
-}
-#bajo_medio > ul {
-    list-style: none;
-    font-size: 18px;
-    margin: 0px;
-}
-#bajo_medio ul > li > a {
-    text-decoration: none;
-    color: #5E5E5E;
+    float:left;
 }
 
-#bajo > bajo_der {
+#bajo #bajo_der {
     display: block;
     width: 286px;
     float: left;
 }
 
-#bajo_der > ul {
+#bajo_medio ul {
     list-style: none;
     font-size: 18px;
     margin: 0px;
 }
-#bajo_der ul > li > a {
+#bajo_medio ul li a {
     text-decoration: none;
     color: #5E5E5E;
+}
+
+#bajo_der ul {
+    list-style: none;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#bajo_der ul li a {
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+#bajo a:hover {
+    text-decoration: none;
+    color: #000;
 }
 
 /***************************
@@ -504,7 +517,6 @@ animation-iteratio-count: infinite;
     padding-top: 1em;
     margin-bottom: -1em;
     text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
-    background-color: red;
 }
 
 #imginfovehiculo{
@@ -525,19 +537,15 @@ animation-iteratio-count: infinite;
 
 #precioycarrito{
     text-align: center;
-    
-    background-color: green;
 }
 
 #descrinfovehiculo{
-    background-color: #e2e2e2;
     text-align:justify;
     padding: 2em;
 }
 
 #detalle{
     width: auto;
-    background-color: blue;
     padding-top: 2em;
     
 }

@@ -14,3 +14,6 @@ W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos
 W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
 W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
 W:\Universidad\segundo curso\segundo cuatrimestre\HADA\practicas\TiendaVehiculos\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
+C:\Users\Cris\Documents\Carmander\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
+C:\Users\Cris\Documents\Carmander\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
+C:\Users\Cris\Documents\Carmander\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
