@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Motosm.master.cs" Inherits="TiendaVehiculo.Articulos.Vehiculos.Motos.Motosm" %>
+<asp:Content ID="Content4" ContentPlaceHolderID="foldermedio" runat="server">
+                 <asp:ContentPlaceHolder ID="foldermedio" runat="server">
+             
+
+
+            </asp:ContentPlaceHolder>
+</asp:Content>
+

@@ -1,7 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/OtrasVistas/Contacta/Contacta.master" AutoEventWireup="true" CodeBehind="Contacta.aspx.cs" Inherits="TiendaVehiculo.OtrasVistas.Contacta.Contacta1" %>
-
-<asp:Content ID="Content3" ContentPlaceHolderID="" runat="server">
-
-    <h1>Contacta hacer</h1>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/OtrasVistas/Contacta/Cantactamaster.master" AutoEventWireup="true" CodeBehind="contacta.aspx.cs" Inherits="TiendaVehiculo.OtrasVistas.Contacta.contacta" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="foldermedio" runat="server">
+    <h2>hola willi</h2>
 </asp:Content>

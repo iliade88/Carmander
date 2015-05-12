@@ -7,9 +7,9 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace TiendaVehiculo.OtrasVistas.Contacta {
+namespace TiendaVehiculo.Articulos.Vehiculos.Motos {
     
     
-    public partial class contacta {
+    public partial class motos {
     }
 }

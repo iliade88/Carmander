@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace TiendaVehiculo.OtrasVistas.Contacta
 {
-    public partial class contacta : System.Web.UI.Page
+    public partial class Cantactamaster : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

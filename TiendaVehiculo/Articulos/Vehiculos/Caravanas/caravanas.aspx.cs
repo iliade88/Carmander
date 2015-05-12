@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace TiendaVehiculo.OtrasVistas.Contacta
+namespace TiendaVehiculo.Articulos.Vehiculos.Caravanas
 {
-    public partial class contacta : System.Web.UI.Page
+    public partial class caravanas1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
