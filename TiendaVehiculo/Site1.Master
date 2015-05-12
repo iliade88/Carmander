@@ -15,10 +15,14 @@
         <div id="topor">
             <asp:ContentPlaceHolder ID="foldertop" runat="server">
                 <div id="identicar">
-                    <h3><a href="http://www.google.es">Identificarse</a></h3>
+                    <h3><a href="usuario/cliente/clientedefault.aspx">Identificarse</a></h3>
                 </div>
                 <div id="carrito">
                     <h3><a href="http://www.google.es">Carrrito 🏀</a></h3>
+                </div>
+                <div id="buscador">
+                    <asp:TextBox ID="TextBox1" placeholder="Busca en la tienda" runat="server"></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" Text="🔎"/>
                 </div>
                 </asp:ContentPlaceHolder>
         </div>

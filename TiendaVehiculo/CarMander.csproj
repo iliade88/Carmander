@@ -82,6 +82,8 @@
     <Content Include="Articulos\Vehiculos\Caravanas\caravanas.master" />
     <Content Include="Articulos\Vehiculos\Camiones\Camiones.master" />
     <Content Include="Articulos\Accesorios\accesoriosm.master" />
+    <Content Include="usuario\cliente\clientedefault.aspx" />
+    <Content Include="usuario\cliente\clientedefault.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -207,10 +209,24 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="usuario\cliente\clientedefault.aspx.cs">
+      <DependentUpon>clientedefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuario\cliente\clientedefault.aspx.designer.cs">
+      <DependentUpon>clientedefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\cliente\clientedefault.master.cs">
+      <DependentUpon>clientedefault.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuario\cliente\clientedefault.master.designer.cs">
+      <DependentUpon>clientedefault.master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="usuario\admin\" />
-    <Folder Include="usuario\cliente\" />
+    <Folder Include="usuario\registro\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

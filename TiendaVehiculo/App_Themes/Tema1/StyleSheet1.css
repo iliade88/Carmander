@@ -290,3 +290,20 @@ animation-iteratio-count: infinite;
         height: 5%;
 }
 
+#menucliente li > a
+{
+    text-decoration: none;
+    color: black;
+
+}
+#menucliente > ul
+{
+    list-style-type: none;
+       
+    cursor: pointer;
+    
+    text-align:right;
+ 
+    display: block;
+    
+}
