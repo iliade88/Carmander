@@ -89,6 +89,14 @@
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Articulos\Accesorios\" />
+    <Folder Include="Articulos\Vehiculos\Camiones\" />
+    <Folder Include="Articulos\Vehiculos\Caravanas\" />
+    <Folder Include="Articulos\Vehiculos\Coches\" />
+    <Folder Include="Articulos\Vehiculos\Furgonetas\" />
+    <Folder Include="Articulos\Vehiculos\Motos\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -15,17 +15,35 @@
     <div id="arriba">
 
          <asp:ContentPlaceHolder ID="folderarriba" runat="server">
-        
-             <div id="icono">
-                 <img src="/imagenes/logo.png" style="width: 375px; height: 75px; margin-left: 18px; margin-top: 25px" />
+            <div id="top">
+                <div id="icono">
+                    <img src="/imagenes/logo.png" style="width: 375px; height: 75px; margin-left: 18px; margin-top: 25px" />
+                 </div>
+                <div id="identicar">
+
+                </div>
+                <div id="carrito">
+
+                </div>
+            </div>
+
+             <div id="barra">
+                 <div id="secciones">
+
+                 </div>
+                 <div id="buscar">
+
+                 </div>
              </div>
+
         </asp:ContentPlaceHolder>
 
     </div>
 
     <div id="medio">
          <asp:ContentPlaceHolder ID="foldermedio" runat="server">
-               
+                       
+
         </asp:ContentPlaceHolder>
 
     </div>
@@ -33,14 +51,23 @@
     <div id="bajo">
          <asp:ContentPlaceHolder ID="folderbajo" runat="server">
         
+             <div id="redessociales">
+
+
+             </div>
+             <div id="contacta">
+
+
+
+             </div>
+
+
         </asp:ContentPlaceHolder>
 
     </div>
         
     <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
+
     </div>
     </form>
 </body>
