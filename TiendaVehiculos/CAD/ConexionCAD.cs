@@ -17,7 +17,7 @@ namespace TiendaVehiculos.CAD
 
         // Cadena de conexion a la BBDD
         //private string cadenaConexion = "Data Source=(LocalDB)\v11.0;AttachDBFilename=|DataDirectory|\\DBDTienda.mdf;Integrated Security=True";
-        string s = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\\Users\\Cris\\Documents\\Carmander\\TiendaVehiculo\\App_Data\\Database1.mdf;Integrated Security=True";//"data source=.\\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\\Database1.mdf;User Instance=true;";
+        string s = "Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True";//"data source=.\\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\\Database1.mdf;User Instance=true;";
         private string cadenaConexion = "data source=.\\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\\Database1.mdf;User Instance=true";
 
 
