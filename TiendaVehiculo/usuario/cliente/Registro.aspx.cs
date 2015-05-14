@@ -27,14 +27,7 @@ namespace TiendaVehiculo.usuario.cliente
             }
             else {
                 Label1.Text = "Usuario no registrado campos incorrectos";
-            }
-            
-           
-             
-
-            
-        
-        
+            }       
         }
     }
 }

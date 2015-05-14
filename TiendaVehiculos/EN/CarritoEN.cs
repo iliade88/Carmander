@@ -6,9 +6,10 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
-using Libreria.CAD;
+using TiendaVehiculos.CAD;
+using System.Collections;
 
-namespace Libreria.EN
+namespace TiendaVehiculos.EN
 {
     public class CarritoEN
     {
@@ -67,6 +68,10 @@ namespace Libreria.EN
             set { descuento = value; }
         }
 
+        public CarritoEN(string usuario)
+        {
+            this.cliente = usuario;
+        }
         public CarritoEN(int idArticulo, string nombre, float precio, int cantidad, float total, string imagen, string cliente, int descuento)
         {
             this.idArticulo = idArticulo;
@@ -79,6 +84,11 @@ namespace Libreria.EN
             this.descuento = descuento;
         }
 
+        public ArrayList LeerCarrito()
+        {
+            CarritoCAD cad = new CarritoCAD();
+            return cad.leerCarritoCAD(cliente);
+        }
         public void AgregarCarrito() { }
         public static DataTable Llenar() { return null; }
         public static float CalcularTotal(){return 0;}

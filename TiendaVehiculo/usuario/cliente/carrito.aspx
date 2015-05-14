@@ -5,9 +5,8 @@
   
     <h1> Carrito</h1>
 
-      <div id="cuadricula">
-        
-    </div>
+    <div id="carrito">
 
+    </div>
 </asp:Content>
 

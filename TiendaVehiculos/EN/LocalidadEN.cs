@@ -13,7 +13,7 @@ using TiendaVehiculos.CAD;
 using System.Collections;
 namespace TiendaVehiculos.EN
 {
-    class LocalidadEN
+    public class LocalidadEN
     {
         private int id;
         private LocalidadCAD Localidadcad;

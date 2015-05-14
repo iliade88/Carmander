@@ -6,9 +6,9 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
-//using Libreria.CAD;
+using TiendaVehiculos.CAD;
 
-namespace Libreria.EN
+namespace TiendaVehiculos.EN
 {
     public class CamionesEN
     {

@@ -20,7 +20,7 @@ namespace TiendaVehiculo.usuario.cliente
             UsuarioEN user = new UsuarioEN();
             if (user.comprobarUsuario(email.Text, pass.Text))
             {
-                Session["login"] = email.Text;
+                Session.Add("login", email.Text);
                 Response.Redirect("Default.aspx");
             }
             else

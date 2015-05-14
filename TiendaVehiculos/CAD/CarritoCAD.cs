@@ -18,14 +18,14 @@ namespace TiendaVehiculos.CAD
         private SqlDataReader lector;
         private SqlCommand consulta;
 
-        public ArrayList leerCarritoCAD()
+        public ArrayList leerCarritoCAD(string usuario)
         {
             lista = new ArrayList();
             // Conectamos con la conexionCAD
             conexion = new ConexionCAD();
             conexion.Conectar();
             //Consulta SQL que devolvera todo lo que tenga la cesta
-            consulta = new SqlCommand("SELECT*FROM carrito", conexion.Conectar());
+            consulta = new SqlCommand("SELECT * FROM carrito WHERE cliente='"+usuario+"'", conexion.Conectar());
             // Leemos la query y la almacenamos
             lector = consulta.ExecuteReader();
             while (lector.Read())

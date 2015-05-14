@@ -7,11 +7,11 @@ using System.Data.Common;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Globalization;
-using Libreria.EN;
+using TiendaVehiculos.EN;
 
-namespace Libreria.CAD
+namespace TiendaVehiculos.CAD
 {
-    class CaravanasCAD
+    public class CaravanasCAD
     {
         public static DataTable llenar()
         {

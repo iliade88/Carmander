@@ -10,9 +10,9 @@ using System.Data.Common;
 using TiendaVehiculos.CAD;
 using System.Collections;
 
-namespace Libreria.EN
+namespace TiendaVehiculos.EN
 {
-    class ProvinciasEN
+    public class ProvinciasEN
     {
         
         private ProvinciaCAD Provinciacad;

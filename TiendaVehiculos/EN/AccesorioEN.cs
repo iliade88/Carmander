@@ -5,12 +5,12 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
-using Libreria.CAD;
+using TiendaVehiculos.CAD;
 
 
-namespace Libreria.EN
+namespace TiendaVehiculos.EN
 {
-    class AccesorioEN
+    public class AccesorioEN
     {
         private bool bolar_remolque;
         private bool porta_bicis;
