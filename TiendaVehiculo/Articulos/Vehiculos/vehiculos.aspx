@@ -15,7 +15,7 @@
                    <li><strong>Colores: </strong> Blanco, Rojo, Verde, Azul</li>
                </ul>
            </div>
-           <div id="precioycarrito"><strong>Precio:</strong> 19000€<br /><button class="baddcarrito">Añadir al carrito</button></div>
+           <div id="precioycarrito"><strong>Precio:</strong> 19000€<br /><button class="button">Añadir al carrito</button></div>
            <div class="clearer"></div>
            <div id="descrinfovehiculo"><p class="descripcion">Todos buscamos la perfección. Pero, ¿qué buscamos en realidad? Para algunas personas la perfección es algo concreto: algo que se puede sentir, tocar o saborear. Para otras es una idea, un estándar que uno se puede imaginar e intentar alcanzar durante toda una vida.
 
