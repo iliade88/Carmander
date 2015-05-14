@@ -18,9 +18,9 @@ namespace TiendaVehiculo.usuario.cliente
         protected void Button1_Click(object sender, EventArgs e)
         {
             UsuarioEN user = new UsuarioEN();
-            if (user.comprobarUsuario(TextBox1.Text, TextBox2.Text))
+            if (user.comprobarUsuario(email.Text, pass.Text))
             {
-                Session["login"] = TextBox1.Text;
+                Session["login"] = email.Text;
                 Response.Redirect("Default.aspx");
             }
             else
@@ -28,5 +28,11 @@ namespace TiendaVehiculo.usuario.cliente
                 Label1.Text = "Usuario o contraseña incorrecta";
             }
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }
