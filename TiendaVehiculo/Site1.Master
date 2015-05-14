@@ -23,20 +23,19 @@
                              <li><a href="/usuario/cliente/login.aspx">Identificarse </a></li>
                              <li><a href="/usuario/cliente/Registro.aspx">Registrarse </a></li>
                              <li><a href="/usuario/cliente/carrito.aspx">Carrito </a></li>
-                             <li><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><asp:Button ID="Button1" runat="server" Text="Ir" /></li>
-                             
-                             
-
+                             <li>
+                                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                                 <asp:Button ID="Button1" runat="server" Text="Ir" />
+                             </li>
                          </ul>
                      </div>
                  </div>
-
                  <div id="top">
                      <div id="icono">
                          <h1><a href="/Default.aspx">
-                             <img src="/imagenes/logo.png" style="width: 17%; height: auto; margin-left: 0.1%; margin-top:3%";/></a></h1>
+                             <img src="/imagenes/logo.png" style="width: 34%; height: auto; margin-left: 0.1%;"/></a></h1>
                      </div>
-                    </div>
+                 </div>
                  <div id="barra">
                      <div id="secciones">
                          <ul>
@@ -75,9 +74,7 @@
                      <li class="twitter"></li>
                      <li class="google"></li>
                  </ul>
-
              </div>
-
              <div id="bajo_medio">
                  <h3>Conócenos</h3>
                  <ul>
@@ -85,9 +82,7 @@
                      <li><a href="link">Organización de la empresa</a></li>
                      <li><a href="link">Trabaja con nosotros</a></li>
                  </ul>
-
              </div>
-
              <div id="bajo_der">
                  <h3>¿Necesitas ayuda?</h3>
                  <ul>

@@ -257,8 +257,9 @@ namespace TiendaVehiculos.CAD
         }
 
         //inserta un usuario
-        public void insertaUsuarioCAD(string dni, string email, string nombre, string ap1, string ap2, string fechaNacimiento, string pass1)
+        public bool insertaUsuarioCAD(string dni, string email, string nombre, string ap1, string ap2, string fechaNacimiento, string pass1)
         {
+            bool insertado = false;
             try
             {
                 // Conectamos
@@ -268,13 +269,17 @@ namespace TiendaVehiculos.CAD
                 consulta = new SqlCommand("INSERT INTO usuario VALUES('" + dni + "','" + email + "','cliente','" + nombre + "','" + ap1 + "','" + ap2 + "', '" + fechaNacimiento + "', GETDATE(), '" + pass1 + "')", conexion.Conectar());
                 // Lanzamos la query
                 consulta.ExecuteNonQuery();
+                insertado = true;
             }
             catch (Exception e)
-            { }
+            {
+                insertado = false;
+            }
             finally
             {
                 conexion.Desconectar();
             }
+            return insertado;
         }
     }
 }
