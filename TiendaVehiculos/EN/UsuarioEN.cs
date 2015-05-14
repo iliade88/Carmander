@@ -85,10 +85,15 @@ namespace TiendaVehiculos.EN
             }
             return existe;
         }
-        public void InsertarUsuarios(string dni, string email, string nombre, string ap1, string ap2, string fechaNacimiento, string pass1)
+        public bool InsertarUsuarios(string dni, string email, string nombre, string ap1, string ap2, string fechaNacimiento, string pass1)
         {
+            
             UsuarioCAD usuariocad = new UsuarioCAD();
-            usuariocad.insertaUsuarioCAD( dni,  email,  nombre,  ap1,  ap2,  fechaNacimiento,  pass1);
+            if (usuariocad.insertaUsuarioCAD(dni, email, nombre, ap1, ap2, fechaNacimiento, pass1))
+                return true;
+
+            else
+                return false;
         }
     }
 }
