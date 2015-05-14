@@ -33,7 +33,7 @@
                  <div id="top">
                      <div id="icono">
                          <h1><a href="/Default.aspx">
-                             <img src="imagenes/logo.png" style="width: 34%; height: auto; margin-left: 0.1%;"/></a></h1>
+                             <img src="/imagenes/logo.png" style="width: 34%; height: auto; margin-left: 0.1%;"/></a></h1>
                      </div>
                  </div>
                  <div id="barra">
