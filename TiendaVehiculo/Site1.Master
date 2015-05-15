@@ -8,7 +8,7 @@
     <title>Carmander</title>
      	
 
-    <link rel="icon" type="image/png" href="imagenes/favicon.png" /> 
+    <link rel="icon" type="image/png" href="imagenes/favicon.ico" /> 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>

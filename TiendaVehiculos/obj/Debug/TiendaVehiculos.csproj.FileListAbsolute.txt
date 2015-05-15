@@ -13,3 +13,8 @@ C:\Users\Jorge\Desktop\GIT\TiendaVehiculos\bin\Debug\TiendaVehiculos.pdb
 C:\Users\Jorge\Desktop\GIT\TiendaVehiculos\obj\Debug\TiendaVehiculos.csprojResolveAssemblyReference.cache
 C:\Users\Jorge\Desktop\GIT\TiendaVehiculos\obj\Debug\TiendaVehiculos.dll
 C:\Users\Jorge\Desktop\GIT\TiendaVehiculos\obj\Debug\TiendaVehiculos.pdb
+C:\Users\Jose\Documents\GitHub\Carmander\TiendaVehiculos\bin\Debug\TiendaVehiculos.dll
+C:\Users\Jose\Documents\GitHub\Carmander\TiendaVehiculos\bin\Debug\TiendaVehiculos.pdb
+C:\Users\Jose\Documents\GitHub\Carmander\TiendaVehiculos\obj\Debug\TiendaVehiculos.csprojResolveAssemblyReference.cache
+C:\Users\Jose\Documents\GitHub\Carmander\TiendaVehiculos\obj\Debug\TiendaVehiculos.dll
+C:\Users\Jose\Documents\GitHub\Carmander\TiendaVehiculos\obj\Debug\TiendaVehiculos.pdb
