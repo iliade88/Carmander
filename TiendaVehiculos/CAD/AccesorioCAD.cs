@@ -11,6 +11,7 @@ using TiendaVehiculos.EN;
 
 namespace TiendaVehiculos.CAD
 {
+    /*prueba*/
     public class AccesorioCAD
     {
         public static DataTable escoger()
