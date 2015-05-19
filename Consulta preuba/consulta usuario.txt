@@ -1,2 +1,7 @@
 insert into USUARIO (dni,nombre,contrasenya,apellido1, apellido2,fecha_nacimiento,fecha_alta) 
 values('74563452','pepe', 'lpp','ele','pp','02/01/2007','02/01/2007');
+
+
+
+insert into VEHICULO (codigo, nombre, descripcion, pvp, url_imagen, disponible)
+values('02','Dacia','muy chachi y bonit',1.20, '\imagenes\vehiculos\coches\logan mcv.jpg',1);

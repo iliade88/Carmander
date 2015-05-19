@@ -1,0 +1,2 @@
+cambiar decimal vehiculos pvp por int
+ 

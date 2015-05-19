@@ -25,7 +25,7 @@
                  <div id="barraarriba">
                      <div id="Div1">
                          <ul>
-                             <li><a href="/usuario/cliente/login.aspx">Identificarse </a></li>
+                             <li id="entrar"><asp:Label ID="Identi" runat="server"></asp:Label></li>
                              <li><a href="/usuario/cliente/Registro.aspx">Registrarse </a></li>
                              <li><a href="/usuario/cliente/carrito.aspx">Carrito </a></li>
                              <li>
