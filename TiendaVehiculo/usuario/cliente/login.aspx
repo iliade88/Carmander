@@ -2,32 +2,17 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="medio" runat="server">
 	
-<div id="iniciarsesion">
-    <h1>Iniciar Sesión</h1>
-    <hr />
-	<div id="usuario">
-        <label id="icon" for="email"><i class="icon-envelope"></i></label>
-		<asp:TextBox ID="email" name="email" runat="server" placeholder="Email"></asp:TextBox>
-		<asp:Label ID="Label1" class="error" runat="server"></asp:Label>
-	</div>
-	<div id="contra">
-        <label id="icon" for="pass"><i class="icon-shield"></i></label>
-		<asp:TextBox ID="pass" TextMode="password" runat="server" placeholder="Contraseña"></asp:TextBox>
-		<asp:Button ID="Button1" runat="server" Text="Iniciar" class="button" onClick="Button1_Click"/>
-	</div>
-    <hr />
-	<div id="registroinicio">
-		<a href="Registro.aspx">Registrarse 
-        </a>
-	</div>
 
 
-	<div id="recuperar">
-		<h4> Recuperar contraseña</h4>
-        <label id="icon" for="emailrecup"><i class="icon-envelope"></i></label>
-		<asp:TextBox ID="emailrecup" runat="server" placeholder="Email"></asp:TextBox>
-		<asp:Button ID="Button2" runat="server" class="button" Text="Recuperar" OnClick="Button2_Click"/>
-	</div>
+    <asp:Login ID="Login1" runat="server" OnAuthenticate="Login1_Authenticate" BackColor="#FFFBD6" BorderColor="#FFDFAD" BorderPadding="4" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" TextLayout="TextOnTop">
+        <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
+        <LoginButtonStyle BackColor="White" BorderColor="#CC9966" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" />
+        <TextBoxStyle Font-Size="0.8em" />
+        <TitleTextStyle BackColor="#990000" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
+</asp:Login>
+<div _designerregion="0">
 </div>
+	
+
 
 </asp:Content>

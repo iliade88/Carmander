@@ -15,27 +15,26 @@ namespace TiendaVehiculo.usuario.cliente
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+     
+        protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
         {
-            UsuarioEN user = new UsuarioEN();
-            if (user.comprobarUsuario(email.Text, pass.Text))
-            {
-                Label1.Text = email.Text + ' ' + pass.Text;
-                Session.Add("login", email.Text);
-                Response.Write(Session["login"]);
-                // Response.Redirect("../../Default.aspx");
+            UsuarioEN usuario;
+            usuario=new UsuarioEN();
+            string username = Login1.UserName;
+            string pwd = Login1.Password;
 
+            if (usuario.comprobarUsuario(username, pwd))
+            {
+                Response.Redirect("Default.apx");
             }
             else
             {
-                Label1.Text = "Usuario o contraseña incorrecta";
+                Response.Redirect("contacta.apx");
             }
+
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
 
     }
 }
