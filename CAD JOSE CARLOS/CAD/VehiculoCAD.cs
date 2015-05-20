@@ -194,6 +194,42 @@ namespace TiendaVehiculos.CAD
             return existe;
         }
 		
+		public ArrayList leeVehiculoPorCodigoCAD(string codigo)
+        {
+            lista = new ArrayList();
+            try
+            {
+                // Conectamos
+                conexion = new ConexionCAD();
+                conexion.Conectar();
+                // Creamos la query
+                consulta = new SqlCommand("SELECT * FROM vehiculo WHERE codigo='"+codigo+"';", conexion.Conectar());
+                // Lanzamos la query
+                lector = consulta.ExecuteReader();
+                // Colocamos los datos en el array
+                while (lector.Read())
+                {
+                    lista.Add(lector["codigo"]);
+                    lista.Add(lector["nombre"]);
+                    lista.Add(lector["descripcion"]);
+                    lista.Add(lector["pvp"]);
+                    lista.Add(lector["url_imagen"]);
+					lista.Add(lector["disponible"]);
+                }
+                // Cerramos el lector
+                lector.Close();
+            }
+            catch (Exception ex)
+            { }
+            finally 
+            {
+                // Desconectamos
+                conexion.Desconectar();
+            }
+            // Subimos los datos a la capa de EN
+            return lista;
+        }
+		
 		
 		// Insert de Vehiculo (COCHE)
         public void insertaVehiculoCocheCAD(string codigo)
