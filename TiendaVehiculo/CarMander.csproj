@@ -75,6 +75,14 @@
     <Content Include="imagenes\google.png" />
     <Content Include="imagenes\logo.png" />
     <Content Include="imagenes\twitterlogo.png" />
+    <Content Include="imagenes\vehiculos\1.jpg" />
+    <Content Include="imagenes\vehiculos\camiones\images.jpg" />
+    <Content Include="imagenes\vehiculos\camiones\www.reencauchadorajc.com-camion01.jpg" />
+    <Content Include="imagenes\vehiculos\camiones\índice.jpg" />
+    <Content Include="imagenes\vehiculos\caravanas\47863400_3.jpg" />
+    <Content Include="imagenes\vehiculos\caravanas\imadddges.jpg" />
+    <Content Include="imagenes\vehiculos\caravanas\images.jpg" />
+    <Content Include="imagenes\vehiculos\caravanas\sun light caravana.jpg" />
     <Content Include="imagenes\vehiculos\coches\duster.jpg" />
     <Content Include="imagenes\vehiculos\coches\fiat multipkla.jpg" />
     <Content Include="imagenes\vehiculos\coches\fiat punto.jpg" />
@@ -265,10 +273,7 @@
       <DependentUpon>Registro.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="imagenes\vehiculos\camiones\" />
-    <Folder Include="imagenes\vehiculos\caravanas\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\TiendaVehiculos\TiendaVehiculos.csproj">
       <Project>{17ef87df-2f71-4062-9a21-5be96cb8750f}</Project>
