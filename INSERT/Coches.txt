@@ -1,0 +1,18 @@
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('001','SEAT IBIZA','Seat bonito y funcional','25000','\imagenes\vehiculos\coches\seat ibiza.png',1,'COCHE'); 
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('002','Dacia Logan','Dacia bonito y funcional','21000','\imagenes\vehiculos\coches\logan mcv.jpg',1,'COCHE'); 
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('003','Multipla','Fiat Bonito y Funcional','20000','\imagenes\vehiculos\coches\fiat multipkla.jpg',0,'COCHE'); 
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('004','Fiesta','Ford Bonito y Funcional','50000','\imagenes\vehiculos\coches\ford fiesta.jpg',0,'COCHE'); 
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('005','Model S','Tesla Bonito y Funcional','20000','\imagenes\vehiculos\coches\tesla model s.jpg',0,'COCHE'); 
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('006','Punto','Fiat Bonito y Funcional','70000','\imagenes\vehiculos\coches\fiat punto.jpg',0,'COCHE'); 
+

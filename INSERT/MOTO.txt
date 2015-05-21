@@ -1,0 +1,14 @@
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('007','HONDA','CBR bonito y funcional','25000','\imagenes\vehiculos\Motocicletas\CBR125.jpg',1,'MOTO'); 
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('008','HONDA','CRF bonito y funcional','21000','\imagenes\vehiculos\Motocicletas\CRF110F.jpg',1,'MOTO'); 
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('009','Yamaha','YZF Bonito y Funcional','20000','\imagenes\vehiculos\Motocicletas\Yamaha-YZF-R6.jpg',0,'MOTO'); 
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('0010','Piagio','Forza Bonito y Funcional','50000','\imagenes\vehiculos\Motocicletas\forza-125.jpg',0,'MOTO'); 
+
+
+

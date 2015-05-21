@@ -1,0 +1,14 @@
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('001','SEAT IBIZA','Coche Bonito y chachi','25000','/imagen',1,'COCHE'); 
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('002','OPEL CORSA','Coche Bonito y chachi','21000','/imagen',1,'COCHE'); 
+
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('002','FORD LEON','Coche Bonito y chachi','20000','/imagen',0,'COCHE'); 
+
+
+INSERT INTO VEHICULO(codigo, nombre, descripcion, pvp, url_imagen, disponible,tipo)
+VALUES ('003','CARAVANA PRECIOS','caravana del 12','45000','/imagen',1,'CARAVANA'); 
+
