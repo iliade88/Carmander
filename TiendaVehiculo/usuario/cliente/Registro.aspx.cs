@@ -15,19 +15,22 @@ namespace TiendaVehiculo.usuario.cliente
 
         }
 
-        protected void aceptado_Click(object sender, EventArgs e)
+        protected void Button2_Click(object sender, EventArgs e)
         {
-            UsuarioEN user = new UsuarioEN();
+            UsuarioEN usuarioEN = new UsuarioEN();
+            string dni, email, nombre, ap1, ap2, fechaNacimiento, pass;
+            // Recogemos los datos del formulario
+            dni = Request.Form[DNI.UniqueID].ToString();
+            email = Request.Form[Correo.UniqueID].ToString();
+            nombre = Request.Form[Nombre.UniqueID].ToString();
+            ap1 = Request.Form[Apellido.UniqueID].ToString();
+            ap2 = Request.Form[Apellido2.UniqueID].ToString();
+            fechaNacimiento = Request.Form[FN.UniqueID].ToString();
+            pass = Request.Form[Contraseña.UniqueID].ToString();
 
-            if (user.InsertarUsuarios(DNI.Text, Correo.Text, Nombre.Text, Apellido1.Text, Apellido2.Text, day.Text, Contraseña.Text))
-            {
 
-                Label1.Text = "Usuario Registrado";
-
-            }
-            else {
-                Label1.Text = "Usuario no registrado campos incorrectos";
-            }       
+            usuarioEN.insertaUsuarioEN(dni, email, nombre, ap1, ap2, fechaNacimiento, pass);
+            Response.Redirect("\\Default.aspx");
         }
     }
 }

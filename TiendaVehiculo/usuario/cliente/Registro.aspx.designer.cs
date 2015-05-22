@@ -22,13 +22,13 @@ namespace TiendaVehiculo.usuario.cliente {
         protected global::System.Web.UI.WebControls.TextBox Nombre;
         
         /// <summary>
-        /// Control Apellido1.
+        /// Control Apellido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Apellido1;
+        protected global::System.Web.UI.WebControls.TextBox Apellido;
         
         /// <summary>
         /// Control Apellido2.
@@ -49,13 +49,13 @@ namespace TiendaVehiculo.usuario.cliente {
         protected global::System.Web.UI.WebControls.TextBox DNI;
         
         /// <summary>
-        /// Control day.
+        /// Control FN.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox day;
+        protected global::System.Web.UI.WebControls.TextBox FN;
         
         /// <summary>
         /// Control Correo.

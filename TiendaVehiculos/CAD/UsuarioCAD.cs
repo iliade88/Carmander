@@ -11,7 +11,7 @@ using System.Data.SqlTypes;
 namespace TiendaVehiculos.CAD
 {
 
-    
+
 
     public class UsuarioCAD
     {
@@ -171,7 +171,7 @@ namespace TiendaVehiculos.CAD
         }
 
         // Update de Cliente
-        public void modificaUsuarioCAD(string dni,string email, string tipo, string nombre, string apellido1, string apellido2, DateTime fecha_nacimiento, DateTime fecha_alta, string contrasenya)
+        public void modificaUsuarioCAD(string dni, string email, string tipo, string nombre, string apellido1, string apellido2, DateTime fecha_nacimiento, DateTime fecha_alta, string contrasenya)
         {
             conexion = new ConexionCAD();
             conexion.Conectar();
@@ -223,7 +223,7 @@ namespace TiendaVehiculos.CAD
             conexion = new ConexionCAD();
             conexion.Conectar();
             // Creamos la query
-            consulta = new SqlCommand("SELECT COUNT(*) FROM USUARIO WHERE tipo = 'cliente' AND email = '" + log + "' AND contrasenya = '" + pass + "';", conexion.Conectar());
+            consulta = new SqlCommand("SELECT COUNT(*) FROM USUARIO WHERE tipo = 'cliente' AND dni = '" + log + "' AND contrasenya = '" + pass + "';", conexion.Conectar());
             // Lanzamos la query
             count = Convert.ToInt32(consulta.ExecuteScalar());
             // Hay un usuario con ese log y pass
@@ -265,7 +265,8 @@ namespace TiendaVehiculos.CAD
                 conexion = new ConexionCAD();
                 conexion.Conectar();
                 // Creamos la query
-                consulta = new SqlCommand("INSERT INTO usuario VALUES('" + dni + "','" + email + "','cliente','" + nombre + "','" + ap1 + "','" + ap2 + "', '" + fechaNacimiento + "', GETDATE(), '" + pass1 + "')", conexion.Conectar());
+                //consulta = new SqlCommand("INSERT INTO USUARIO(dni,email,tipo,nombre,apellido1,apellido2,fecha_nacimiento,fecha_alta,contrasenya)VALUES ('" + dni + "','" + email + "','cliente','" + nombre + "','" + ap1 + "','" + ap2 + "', '" + fechaNacimiento + "', GETDATE(), '" + pass1 + "')", conexion.Conectar()); 
+                consulta = new SqlCommand("INSERT INTO usuario VALUES('" + dni + "','" + email + "','USUARIO','" + nombre + "','" + ap1 + "','" + ap2 + "', '" + fechaNacimiento + "', GETDATE(), '" + pass1 + "')", conexion.Conectar());
                 // Lanzamos la query
                 consulta.ExecuteNonQuery();
                 insertado = true;

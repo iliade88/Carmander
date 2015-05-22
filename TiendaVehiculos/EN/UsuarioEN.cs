@@ -16,9 +16,92 @@ namespace TiendaVehiculos.EN
     {
         private UsuarioCAD usuariocad;
 
-        public ArrayList mostrarUsuarios() {
-            ArrayList lista=new ArrayList();
-            UsuarioCAD usuariocad=new UsuarioCAD();
+        public class Usuario
+        {
+            // Propiedades de Usuario
+            private string dni;
+            private string email;
+            private string tipo;
+            private string nombre;
+            private string apellido1;
+            private string apellido2;
+            private DateTime fecha_nacimiento;
+            private DateTime fecha_alta;
+            private string contrasenya;
+
+            public string Dni
+            {
+                get { return dni; }
+                set { dni = value; }
+            }
+
+            public string Email
+            {
+                get { return email; }
+                set { email = value; }
+            }
+
+            public string Tipo
+            {
+                get { return tipo; }
+                set { tipo = value; }
+            }
+
+            public string Nombre
+            {
+                get { return nombre; }
+                set { nombre = value; }
+            }
+
+            public string Apellido1
+            {
+                get { return apellido1; }
+                set { apellido1 = value; }
+            }
+
+            public string Apellido2
+            {
+                get { return apellido2; }
+                set { apellido2 = value; }
+            }
+
+            public DateTime Fecha_nac
+            {
+                get { return fecha_nacimiento; }
+                set { fecha_nacimiento = value; }
+            }
+
+            public DateTime Fecha_alta
+            {
+                get { return fecha_alta; }
+                set { fecha_alta = value; }
+            }
+
+            public string Contrasenya
+            {
+                get { return contrasenya; }
+                set { contrasenya = value; }
+            }
+        }
+        // Metodo que enviara al CAD los datos
+        // del cliente, para verificarlos
+        public bool compruebaUsuarioEN(string l, string p)
+        {
+            bool existe;
+            usuariocad = new UsuarioCAD();
+            // Creamos un cliente
+            Usuario c = new Usuario();
+            // Enviamos al CAD los datos
+            existe = usuariocad.compruebaUsuarioCAD(l, p);
+
+            return existe;
+        }
+
+
+        public ArrayList mostrarUsuarios()
+        {
+            ArrayList lista = new ArrayList();
+            UsuarioCAD usuariocad = new UsuarioCAD();
             lista = usuariocad.leeTablaUsuarioCAD();
             return lista;
         }
@@ -53,13 +136,15 @@ namespace TiendaVehiculos.EN
         public void ModificarUsuarios(string dni, string email, string tipo, string nombre, string apellido1, string apellido2, DateTime fecha_nacimiento, DateTime fecha_alta, string contrasenya)
         {
             UsuarioCAD usuariocad = new UsuarioCAD();
-            usuariocad.modificaUsuarioCAD( dni,  email,  tipo,  nombre,  apellido1,  apellido2,  fecha_nacimiento,  fecha_alta,  contrasenya);    
+            usuariocad.modificaUsuarioCAD(dni, email, tipo, nombre, apellido1, apellido2, fecha_nacimiento, fecha_alta, contrasenya);
         }
-        public void EliminarUsuarios(string dni) {
+        public void EliminarUsuarios(string dni)
+        {
             UsuarioCAD usuariocad = new UsuarioCAD();
             usuariocad.eliminaUsuarioCAD(dni);
         }
-        public ArrayList leeUsuario(string log, string pass) {
+        public ArrayList leeUsuario(string log, string pass)
+        {
             ArrayList lista = new ArrayList();
             UsuarioCAD usuariocad = new UsuarioCAD();
             usuariocad.leeUsuarioCAD(log, pass);
@@ -85,15 +170,11 @@ namespace TiendaVehiculos.EN
             }
             return existe;
         }
-        public bool InsertarUsuarios(string dni, string email, string nombre, string ap1, string ap2, string fechaNacimiento, string pass1)
+        public void insertaUsuarioEN(string dni, string email, string nombre, string ap1, string ap2, string fechaNacimiento, string pass)
         {
-            
-            UsuarioCAD usuariocad = new UsuarioCAD();
-            if (usuariocad.insertaUsuarioCAD(dni, email, nombre, ap1, ap2, fechaNacimiento, pass1))
-                return true;
+            usuariocad = new UsuarioCAD();
 
-            else
-                return false;
+            usuariocad.insertaUsuarioCAD(dni, email, nombre, ap1, ap2, fechaNacimiento, pass);
         }
     }
 }
