@@ -5,12 +5,11 @@
         <div id="cuadricula">
             
             <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Horizontal" Height="347px" Width="843px">
-                <Columns>
-                    <asp:BoundField DataField="nombre" HeaderText="nombre" SortExpression="nombre" />
-                    <asp:BoundField DataField="descripcion" HeaderText="descripcion" SortExpression="descripcion" />
-                    <asp:BoundField DataField="pvp" HeaderText="pvp" SortExpression="pvp" />
-                    <asp:CheckBoxField DataField="disponible" HeaderText="disponible" SortExpression="disponible" />
-                    <asp:ButtonField CommandName="Cancel" HeaderText="Detalle" ShowHeader="True" Text="Ver" ButtonType="Button" />
+               <Columns>
+                    <asp:BoundField DataField="nombre" HeaderText="Nombre" SortExpression="nombre" ItemStyle-HorizontalAlign="center" />
+                    <asp:BoundField DataField="descripcion" HeaderText="Descripcion" SortExpression="descripcion" ItemStyle-HorizontalAlign="center" />
+                    <asp:BoundField DataField="pvp" HeaderText="PVP" SortExpression="pvp" DataFormatString="{0:C}" ItemStyle-HorizontalAlign="center"/>
+                    <asp:HyperLinkField ItemStyle-HorizontalAlign="center" HeaderText="Enlace" DataNavigateUrlFields="codigo" DataNavigateUrlFormatString="/Articulos\Vehiculos\vehiculos.aspx?id={0}" Text="Ver" />
                 </Columns>
                 <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
                 <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
@@ -22,7 +21,7 @@
                 <SortedDescendingHeaderStyle BackColor="#242121" />
             </asp:GridView>
 
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [nombre], [descripcion], [pvp], [url_imagen], [disponible] FROM [VEHICULO] WHERE ([tipo] = @tipo)">
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [nombre], [descripcion], [pvp], [url_imagen], [disponible],[codigo] FROM [VEHICULO] WHERE ([tipo] = @tipo)">
                 <SelectParameters>
                     <asp:Parameter DefaultValue="FURGONETA" Name="tipo" Type="String" />
                 </SelectParameters>
