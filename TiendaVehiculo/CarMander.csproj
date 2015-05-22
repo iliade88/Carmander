@@ -115,7 +115,12 @@
     <Content Include="imagenes\vehiculos\Motocicletas\ninja_h2r.jpg" />
     <Content Include="imagenes\vehiculos\Motocicletas\wr125r.jpg" />
     <Content Include="imagenes\vehiculos\Motocicletas\Yamaha-YZF-R6.jpg" />
+    <Content Include="OtrasVistas\About\About.aspx" />
+    <Content Include="OtrasVistas\Centro ayuda\CentroAyuda.aspx" />
     <Content Include="OtrasVistas\Contacta\contacta.aspx" />
+    <Content Include="OtrasVistas\Organización de la empresa\Org_empresa.aspx" />
+    <Content Include="OtrasVistas\Trabaja con nosotros\Trabaja.aspx" />
+    <Content Include="OtrasVistas\Términos de uso\Term_uso.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="OtrasVistas\Contacta\Cantactamaster.master" />
     <Content Include="Articulos\Accesorios\accesoriosm.master" />
@@ -124,6 +129,11 @@
     <Content Include="usuario\cliente\clientedefault.master" />
     <Content Include="Articulos\Vehiculos\vehiculosM.master" />
     <Content Include="usuario\admin\admin.master" />
+    <Content Include="OtrasVistas\About\About.master" />
+    <Content Include="OtrasVistas\Centro ayuda\CentroAyuda.master" />
+    <Content Include="OtrasVistas\Organización de la empresa\Org_empresa.master" />
+    <Content Include="OtrasVistas\Trabaja con nosotros\Trabaja.master" />
+    <Content Include="OtrasVistas\Términos de uso\Term_uso.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -208,6 +218,34 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="OtrasVistas\About\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\About\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OtrasVistas\About\About.master.cs">
+      <DependentUpon>About.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\About\About.master.designer.cs">
+      <DependentUpon>About.master</DependentUpon>
+    </Compile>
+    <Compile Include="OtrasVistas\Centro ayuda\CentroAyuda.aspx.cs">
+      <DependentUpon>CentroAyuda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\Centro ayuda\CentroAyuda.aspx.designer.cs">
+      <DependentUpon>CentroAyuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OtrasVistas\Centro ayuda\CentroAyuda.master.cs">
+      <DependentUpon>CentroAyuda.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\Centro ayuda\CentroAyuda.master.designer.cs">
+      <DependentUpon>CentroAyuda.master</DependentUpon>
+    </Compile>
     <Compile Include="OtrasVistas\Contacta\Cantactamaster.master.cs">
       <DependentUpon>Cantactamaster.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -221,6 +259,48 @@
     </Compile>
     <Compile Include="OtrasVistas\Contacta\contacta.aspx.designer.cs">
       <DependentUpon>contacta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OtrasVistas\Organización de la empresa\Org_empresa.aspx.cs">
+      <DependentUpon>Org_empresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\Organización de la empresa\Org_empresa.aspx.designer.cs">
+      <DependentUpon>Org_empresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OtrasVistas\Organización de la empresa\Org_empresa.master.cs">
+      <DependentUpon>Org_empresa.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\Organización de la empresa\Org_empresa.master.designer.cs">
+      <DependentUpon>Org_empresa.master</DependentUpon>
+    </Compile>
+    <Compile Include="OtrasVistas\Trabaja con nosotros\Trabaja.aspx.cs">
+      <DependentUpon>Trabaja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\Trabaja con nosotros\Trabaja.aspx.designer.cs">
+      <DependentUpon>Trabaja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OtrasVistas\Trabaja con nosotros\Trabaja.master.cs">
+      <DependentUpon>Trabaja.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\Trabaja con nosotros\Trabaja.master.designer.cs">
+      <DependentUpon>Trabaja.master</DependentUpon>
+    </Compile>
+    <Compile Include="OtrasVistas\Términos de uso\Term_uso.aspx.cs">
+      <DependentUpon>Term_uso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\Términos de uso\Term_uso.aspx.designer.cs">
+      <DependentUpon>Term_uso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OtrasVistas\Términos de uso\Term_uso.master.cs">
+      <DependentUpon>Term_uso.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtrasVistas\Términos de uso\Term_uso.master.designer.cs">
+      <DependentUpon>Term_uso.master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">

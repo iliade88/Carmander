@@ -75,25 +75,31 @@
              <div id="bajo_izq">
                  <h3>Síguenos en</h3>
                  <ul class="redes_sociales">
-                     <li class="facebook"></li>
-                     <li class="twitter"></li>
-                     <li class="google"></li>
+                     <li>
+                         <a class="facebook" href="https://www.facebook.com"></a>
+                     </li>
+                     <li>
+                         <a class="twitter" href="https://twitter.com"></a>
+                     </li>
+                     <li>
+                         <a class="google" href="https://plus.google.com/"></a>
+                     </li>
                  </ul>
              </div>
              <div id="bajo_medio">
                  <h3>Conócenos</h3>
                  <ul>
-                     <li><a href="link">Sobre nosotros</a></li>
-                     <li><a href="link">Organización de la empresa</a></li>
-                     <li><a href="link">Trabaja con nosotros</a></li>
+                     <li><a href="OtrasVistas/About/About.aspx">Sobre nosotros</a></li>
+                     <li><a href="OtrasVistas/Organización de la empresa/Org_empresa.aspx">Organización de la empresa</a></li>
+                     <li><a href="OtrasVistas/Trabaja con nosotros/Trabaja.aspx">Trabaja con nosotros</a></li>
                  </ul>
              </div>
              <div id="bajo_der">
                  <h3>¿Necesitas ayuda?</h3>
                  <ul>
-                     <li><a href="link">Centro de ayuda</a></li>
-                     <li><a href="link">Contacta con nosotros</a></li>
-                     <li><a href="link">Términos y licencias de uso</a></li>
+                     <li><a href="OtrasVistas/Centro ayuda/CentroAyuda.aspx">Centro de ayuda</a></li>
+                     <li><a href="OtrasVistas/Contacta/contacta.aspx">Contacta con nosotros</a></li>
+                     <li><a href="OtrasVistas/Términos de uso/Term_uso.aspx">Términos de uso</a></li>
                  </ul>
              </div>
         
