@@ -12,9 +12,9 @@ namespace TiendaVehiculo
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            if (Session["login"] == null)
+            if (Session["login"] != null)
             {
-                Identi.Text = "Dentro";
+                Identi.Text = "<a href='/usuario/cliente/login.aspx'>Dentro </a>";
 
             }
             else { 

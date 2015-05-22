@@ -77,3 +77,10 @@ E:\Users\jorge\Documents\GitHub\Carmander\TiendaVehiculo\bin\TiendaVehiculos.pdb
 E:\Users\jorge\Documents\GitHub\Carmander\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
 E:\Users\jorge\Documents\GitHub\Carmander\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
 E:\Users\jorge\Documents\GitHub\Carmander\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
+C:\Users\Jorge\Desktop\Carmander\TiendaVehiculo\bin\TiendaVehiculo.dll
+C:\Users\Jorge\Desktop\Carmander\TiendaVehiculo\bin\TiendaVehiculo.pdb
+C:\Users\Jorge\Desktop\Carmander\TiendaVehiculo\bin\TiendaVehiculos.dll
+C:\Users\Jorge\Desktop\Carmander\TiendaVehiculo\bin\TiendaVehiculos.pdb
+C:\Users\Jorge\Desktop\Carmander\TiendaVehiculo\obj\Debug\CarMander.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Desktop\Carmander\TiendaVehiculo\obj\Debug\TiendaVehiculo.dll
+C:\Users\Jorge\Desktop\Carmander\TiendaVehiculo\obj\Debug\TiendaVehiculo.pdb
